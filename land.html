@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="land.css" />
+
+    <!-- Simple lightbox CSS -->
+
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title>PingOs Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="Pin">Pin</span><span class="go">GO</span><span class="s">s</span>
+        </h1>
+      </a>
+
+      <!-- Dark/Light theme switcher -->
+
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+    </div>
+
+      <ul>
+        <li class="nav-item"><a href="#info" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#stars" class="nav-link">TableTennis Stars</a></li>
+        <li class="nav-item"><a href="#contact-us" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Bars -->
+
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    
+</nav>
+
+
+    <!-- Info section -->
+    <section class="info" id="info">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> You can Hear the PinGOs </span> <br />
+          <span class="connecting"> Connecting</span>
+        </h1>
+        <p>
+          An online streaming platform for table tennis matches <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#" target="_blank">Learn More</a>
+        <a class="btn blue" href="#sub" target="_blank">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe
+          width="513"
+          height="500"
+          src="zangimg.jpg"
+          title="Big Champion Zang Jike"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Watch the PinGOs</h3>
+      <p>
+        Our primary objective is to bring live table tennis matches to fans all around
+        the world
+      </p>
+
+      <h3>it's not just about championships videos!</h3>
+      <p>
+        We also air interviews with all the world players, their life style, news and more
+      </p>
+</section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <h3>Our Super Stars</h3>
+      <div class="stars-gallery">
+        <a href="Timg2.webp" class="big">
+          <img
+            src="Timg2.webp"
+            alt="Ma Long"
+            title="Ma Long"
+          />
+        </a>
+
+        <a href="Timg13.jpg" class="big">
+          <img
+            src="Timg13.jpg"
+            alt="Quadri Aruna"
+            title="Quadri Aruna"
+          />
+        </a>
+
+        <a href="Timg3.jpg" class="big">
+          <img
+            src="Timg3.jpg"
+            alt="Fan Zhendong"
+            title="Fan Zhendong"
+          />
+        </a>
+
+        <a href="Timg4.jpg" class="big">
+          <img
+            src="Timg4.jpg"
+            alt="Timo Ball"
+            title="Timo Ball"
+          />
+        </a>
+
+        <a href="Timg11.jpg" class="big">
+          <img
+            src="Timg11.jpg"
+            alt="Omar Assar"
+            title="Omar Assar"
+          />
+        </a>
+
+        <a href="Timg15.jpg" class="big">
+          <img
+            src="Timg15.jpg"
+            alt="Dina Meshref"
+            title="Dina Meshref"
+          />
+        </a>
+
+        <a href="Timg5.jpg" class="big"
+          ><img
+            src="Timg5.jpg"
+            alt="Ding Ning"
+            title="Ding Ning"
+          />
+      </a>
+
+      <a href="Timg17.jpg" class="big">
+        <img
+          src="Timg17.jpg"
+          alt="Sun Yingsha"
+          title="Sun Yingsha"
+        />
+      </a>
+      </div>
+</section>
+
+    <!-- Email subscription -->
+<section class="contact">
+  <h2>Contact Us</h2>
+    <div class="split-screen" id="contact-us">
+      <div class="left">
+        <form>
+          <section class="copy">
+            <h3>Contact us</h3>
+            <div class="login">
+              <p class="para">Already have an account? <a href="login.html"><strong>Log In</strong></a></p>
+            </div>
+          </section>
+          <div class="input-name">
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname" required>
+          </div>
+          <div class="input-name">
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname" required>
+          </div>
+          <div class="input-email">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="input-password">
+            <label for="password">Password: </label>
+            <input id="password" name="password" type="password" placeholder="Must be at least 6 characters" required>
+            <i class="far fa-eye-slash"></i>
+          </div>
+          <div class="input-phone">
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="input-message">
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Submit</button> 
+        </form>
+      </div>
+      <div class="right">
+        <section class="copy">
+          <h3>Subscribe to our Newsletter !</h3>
+      <form action="#" class="down">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+        <section class="social">
+          <h3>Connect with us on Social Media</h3>
+          <div class="socicons">
+            <a href="#"> <ion-icon name="logo-youtube"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+          </div>
+        </section>
+        </section>
+      </div>
+    </div>
+  </section>
+  
+<footer>
+  <p> &copy;PinGOs2023. by Sally Osama >> All Rights Reserved. </p></footer>
+
+    <!-- Scroll to top button -->
+
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="uparrow2.png"
+        class="socicon up-arrow"
+        alt="up-arrow"/></i>
+
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+    <script>
+      // Hamburger menu selections
+const hamburger = document.querySelector("#hamburger");
+const navMenu = document.querySelector("ul");
+const navLink = document.querySelectorAll("#nav-link");
+
+// scroll-to-top selection
+const scrollUp = document.querySelector("#scroll-up");
+
+// Hamburger menu functionality
+hamburger.addEventListener("click", openMenu);
+
+// Theme switcher selection
+const checkbox = document.querySelector("#checkbox");
+
+function openMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+
+// Close menu on nav menu clicks
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
+
+// scroll to top functionality
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+// Theme switcher functionality
+checkbox.addEventListener("change", () => {
+  // Toggle website theme
+  document.body.classList.toggle("dark");
+});
+    </script>
+  </body>
+</html>
+
+
+
+
